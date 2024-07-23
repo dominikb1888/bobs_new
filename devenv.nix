@@ -9,6 +9,7 @@
     pkgs.git
     pkgs.ruby
     pkgs.jekyll
+    pkgs.bundler
   ];
 
   # https://devenv.sh/scripts/

@@ -1,11 +1,4 @@
-
----
-layout: page
-title: Personal Productivity
-description: Listing shell tools and practices for productive devs
----
-
-# Productivity TODOs
+# Productivity
 
 ## Command Line
 
