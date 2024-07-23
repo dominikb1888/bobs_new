@@ -1,23 +1,11 @@
 ---
-title: Introduction to Java
+title: Introduction
 ---
 
-Sep 28
-: [Java & Git](#)
-  : [1.1](#)
+Oct 5
+: **Lecture**{: .label .label-greem }[The internal Language of Computers](/bobs/lectures/#1-the-internal-language-of-computers)
+  : [Hello World](https://classroom.github.com/a/cYd-7xPR), [Bob](https://classroom.github.com/a/SrWip1V0), [Leap Year](https://classroom.github.com/a/QGy47nk5)
 
-Sep 29
-: **Section**{: .label .label-purple }[Intro to Java](#)
-  : [Solution](#)
+: **Exercise**{: .label .label-purple } [Truth or Consequences](/bobs/exercises/#1-truth-or-consequences)
+  : [true_rs](https://github.com/dominikb1888/bobs_new/exercises/true_rs)
 
-Sep 30
-: [Variables & Objects](#)
-  : [1.2](#), [2.1](#)
-
-Oct 1
-: **Lab**{: .label .label-purple } [Intro to Java](#)
-
-Oct 2
-: [Tracing, IntLists, & Recursion](#)
-  : [2.1](#)
-: **HW 1 due**{: .label .label-red }

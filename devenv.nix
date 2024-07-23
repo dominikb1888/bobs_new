@@ -10,6 +10,8 @@
     pkgs.ruby
     pkgs.jekyll
     pkgs.bundler
+    pkgs.rustc
+    pkgs.cargo
   ];
 
   # https://devenv.sh/scripts/
