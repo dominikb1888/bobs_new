@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Digital Business Skills
 tagline: A hands-on course to understand computers and business
-description: In this course you will build and market a command-line tool written in Rust. On the we learn about Computers, Customers, and Co-Creation.
+description: In this course you will build and market a command-line tool written in Rust. On the way we learn about Computers, Customers, and Co-Creation.
 author: Dominik Boehler
 baseurl: '/bobs' # the subpath of your site, e.g. /blog
 url: 'https://dominikboehler.de' # the base hostname & protocol for your site, e.g. http://example.com
