@@ -77,3 +77,10 @@ compress_html:
 liquid:
   error_mode: strict
   strict_filters: true
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "9.1.3"
+
+enable_copy_code_button: true
