@@ -1,9 +1,7 @@
 # Lectures
 
-Book: The Secret Life of Programs
-
-   Rust Exercises:
-   - [Hello World](https://classroom.github.com/a/cYd-7xPR)
+Book:
+- The Secret Life of Programs: https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=6071143&query=the%20secret%20life
 
 ## 1. The Internal Language of Computers
 
@@ -196,7 +194,33 @@ $$
 
 ## 2. Combinatorial Logic
 
--
+
+### The Case for Digital Computers
+
+- Why Bits and why Digital Computers?
+
+Continuous vs. Discrete Measures: Analog mean continuous measures, Digital by definition means discrete. A bit is either 0 or 1. This dualism is only release in Quantum Computing where a Qbit can take also any state between 0 an 1.
+
+- Size Matters
+
+Electricity travels at 300 Million meters per Second. Can you make electricity faster? Maybe with a whip? No. So making computers faster means reducing the distance our electrons need to travel.
+
+- Stability at miniature scale - Digital wins
+
+The smaller things become the more suscept they are to interference. Think Schroedingers Cat in the Quantum Space. Anlog signals are easier to interfer with from the outside with than digital signals, because the have distinct decision criteria. There are no in-between values in digital! Well, if everything is shielded well and there is no crosstalk between wires. Think very small wires at a few nm (10 ^ -9 meters distance between wires on a chip) vs. a human hair at 100.000 nm.
+
+- The Transition between Analog and Digital
+
+Transfer Functions: Logistic Function with a clear threshold.
+
+- So, why bits?
+
+Simple answer: 1 threshold is easier to deal with than 10.
+See figure 2.7, page 41.
+
+### A short primer on electricity
+
+
 
 ## 4. Computer Anatomy
 ## 5. Computer Architecture

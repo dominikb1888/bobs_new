@@ -1,5 +1,12 @@
 # Productivity
 
+Books:
+- Learning modern Linux: https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=6953576&query=linux%20hausenblas
+- Linux Yourself: https://www.routledge.com/Linux-Yourself-Concept-and-Programming/KSingh/p/book/9781032037073
+
+Reference:
+- Linux Pocket Guide: https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=31192041
+
 ## Command Line
 
 - [ ] [CLI Tutorial](md/cli_tutorial.md)

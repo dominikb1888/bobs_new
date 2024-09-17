@@ -38,7 +38,7 @@ footer_content:
 collections:
   staffers:
   modules:
-  schedules:
+  schedule:
   announcements:
 # Default layouts for each collection type
 defaults:
