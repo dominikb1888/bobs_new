@@ -1,6 +1,10 @@
 # Exercises
 
-- Core Book: Command-Line Rust: https://ebookcentral.proquest.com/lib/th-deggendorf/reader.action?docID=6853886
+{: .highlight .k }
+> Core Literature
+>
+> Command-Line Rust: https://ebookcentral.proquest.com/lib/th-deggendorf/reader.action?docID=6853886
+
 - Advanced: Practical Systems Programming with Rust: https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=6447686
 - Even more Advanced: The Linux Programming Interface:
 

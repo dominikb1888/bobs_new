@@ -30,7 +30,7 @@ permalink: pretty
 aux_links:
   Dominik Boehler:
     - 'https://dominikboehler.de'
-  Just the Class on GitHub:
+  BOBS on GitHub:
     - 'github.com/dominikb1888/bobs_new'
 footer_content:
 
@@ -84,3 +84,27 @@ mermaid:
   version: "9.1.3"
 
 enable_copy_code_button: true
+
+callouts:
+  warning:
+    title: Warning
+    color: red
+
+  note:
+    title: Note
+    color: purple
+
+  highlight:
+    title: Exercise
+    color: yellow
+
+  new:
+    title: Further Reading
+    color: green
+
+  important:
+    title: Important
+    color: blue
+
+    # LaTeX rendering via "katex" (KaTeX, default) or "mathjax" (MathJax) or "none" / "off" (NO rendering)
+latex: mathjax
