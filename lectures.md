@@ -1,7 +1,9 @@
 # Lectures
 
-Book:
-- The Secret Life of Programs: https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=6071143&query=the%20secret%20life
+{: .highlight .sr }
+>
+> **Required Reading:** [The Secret Life of Programs](https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=6071143&query=the%20secret%20life)
+>
 
 ## 1. The Internal Language of Computers
 
@@ -221,17 +223,107 @@ See figure 2.7, page 41.
 ### A short primer on electricity
 
 
+## 3. Sequential Logic
+
+- Latches, FlipFlops, Counters, and Registers
+- Memory Organization and Adressing
+- Block Devices
+
 
 ## 4. Computer Anatomy
-## 5. Computer Architecture
-## 6. Communications Breakdown
-## 7. Organizing Data
-## 8. Language Processing
-## 9. The Web Browser
-## 10. Application and System Programming
-## 11. Shortcuts and Approximations
-## 12. Deadlocks and Race Conditions
-## 13. Security
-## 14. Machine Intelligence
-## 15. Real-World Considerations
 
+- Memory
+- I/O: CPU, ALU
+- CPU Instructions
+- GPU
+
+
+## 5. Computer Architecture
+
+- Basic Architectures (von Neumann, Harvard)
+- Procedures, Subroutines, and Functions
+- Stacks
+- Interrupts
+- Relative Addressing
+- MMUs (Memory Management Units)
+- Arranging Data in Memory
+- Running Programs
+
+
+## 6. Communications Breakdown
+
+- Low-level I/O
+- Parallel & Serial Communication
+- Networking and the Internet
+- Analog in the Digital World (Sound, Images, Videos)
+- Human-Computer Interfaces (Terminal, GUI, Keyboard, Mouse)
+
+
+## 7. Organizing Data
+
+- Primitive Data Types
+- Compound Data Types (Linked Lists, Trees)
+- Dynamic Memory Allocation
+- Garbage Collection
+- Databases
+- Vectored I/O
+- Sorting and Hashing
+
+## 8. Language Processing
+
+- Assembly Language
+- High-Level Languages
+- State Machines
+- Regular Expressions
+- Parse Trees
+- Interpreters
+- Compilers
+- Optimization
+- System Architectures/Targets (x86-64, aarch64, ...)
+
+## 9. The Web Browser
+
+- Markup Languages
+- URLs
+- HTML Documents and the DOM
+- CSS
+- XML
+- JavaScript and jQuery
+- SVG
+- HTML5
+- JSON
+
+## 10. Application and System Programming
+
+- Guess the Animal (WEB)
+- Guess the Animal (CLI): Data Structures and Memory Management
+
+
+
+## 11. Shortcuts and Approximations
+
+- Table Lookup vs. Calculation: Characters and
+- Integer Methods: "Straight" Lines
+- Recursive Subdivision
+- Math Avoidance
+- Random Stuff and Quantization
+
+## 12. Deadlocks and Race Conditions
+
+- Race Conditions
+- Processes and Shared Resources
+- Locks
+- Asynchronous Functions and Promises
+
+## 13. Security
+
+- Security and Privacy
+- Cryptography
+- Software Hygiene
+
+## 14. Machine Intelligence
+
+- Machine Learning
+- Artificial Intelligence
+- Big Data
+- Reflection and Outlook: The industry and your role

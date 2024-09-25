@@ -1,11 +1,16 @@
 ---
-title: Introduction
+title: 1 | Computer Language, Business Language
 ---
 
-Oct 5
-: **Lecture**{: .label .label-greem }[The internal Language of Computers](/bobs/lectures/#1-the-internal-language-of-computers)
-  : [Hello World](https://classroom.github.com/a/cYd-7xPR), [Bob](https://classroom.github.com/a/SrWip1V0), [Leap Year](https://classroom.github.com/a/QGy47nk5)
+October 5
+![Intro](/bobs_new/assets/images/icons/1_computer-language-business-language.png)
+: **Lecture**{: .label .label-green }[The internal Language of Computers](/bobs_new/lectures#1-the-internal-language-of-computers)
+  : [Hello World](https://classroom.github.com/a/cYd-7xPR)
 
-: **Exercise**{: .label .label-purple } [Truth or Consequences](/bobs/exercises/#1-truth-or-consequences)
+: **Productivity**{: .label .label-blue } [Linux CLI Basics: Files and Directories](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+  : cd, ls, mkdir, touch, ln, chmod, chgrp
+
+: **Exercise**{: .label .label-yellow } [Truth or Consequences](/bobs_new/exercises/#1-truth-or-consequences)
   : [true_rs](https://github.com/dominikb1888/bobs_new/tree/main/exercises/true_rs)
+
 

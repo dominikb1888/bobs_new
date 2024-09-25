@@ -29,7 +29,7 @@
     }
 
     @include mq(lg) {
-      grid-template-columns: 1fr 7fr;
+      grid-template-columns: 2fr 8fr;
     }
 
     %module-item {
@@ -45,7 +45,7 @@
       @extend %module-item;
       border-top: $border $border-color;
       font-weight: normal;
-      text-align: right;
+      /*text-align: right;*/
 
       +dd {
         border-top: $border $border-color;
@@ -60,7 +60,7 @@
       }
 
       &::after {
-        content: ":";
+        /*content: ":";*/
       }
     }
 

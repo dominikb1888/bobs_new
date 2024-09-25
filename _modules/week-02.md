@@ -1,23 +1,16 @@
 ---
-title: Basic Data Structures
+title: 2 | Combinatorial Logic
 ---
 
-Oct 5
-: [Linked Lists & Encapsulation](#)
-  : [3.1](#), [2.2](#), [2.3](#)
 
-Oct 6
-: **Section**{: .label .label-purple }[Linked Lists](#)
-  : [Solution](#)
+October 12
+![Combinatorial Logic](/bobs_new/assets/images/icons/2_combinatorial-logic.png)
+: **Lecture**{: .label .label-green }[Combinatorial Logic](/bobs_new/lectures#2-combinatorial-logic)
+  : [Bob](https://classroom.github.com/a/SrWip1V0), [Leap Year](https://classroom.github.com/a/QGy47nk5)
 
-Oct 7
-: [Resizing Arrays](#)
-  : [2.4](#), [2.5](#)
+: **Productivity**{: .label .label-blue } []()
+  : []
 
-Oct 8
-: **Lab**{: .label .label-purple } [Resizing Arrays](#)
+: **Exercise**{: .label .label-yellow } [Test for Echo](/bobs_new/exercises/#2-test-for-echo)
+  : [echo_rs](https://github.com/dominikb1888/bobs_new/tree/main/exercises/echo)
 
-Oct 9
-: [Runtime Analysis](#)
-  : [8.1](#), [8.2](#), [8.3](#), [8.4](#)
-: **HW 2 due**{: .label .label-red }
