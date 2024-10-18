@@ -58,9 +58,9 @@ Required Reading:
 - Command-Line Rust: https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=6853886
 
 
-Reference Guide:
+Recommended Reading:
 - Linux Pocket Guide: https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=31192041
-
+- Rust CLI Tutorial: https://rust-cli.github.io/book/index.html
 
 ### **Tutorial**{: .label .label-purple } Rust Exercises & Challenges (optional, additional)
 
