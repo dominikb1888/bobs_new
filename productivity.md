@@ -2,7 +2,7 @@
 
 Books:
 - The Linux Command-Line: [https://linuxcommand.org/tlcl.php](https://linuxcommand.org/tlcl.php)
-- Learning modern Linux:[https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=6953576&query=linux%20hausenblas] (https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=6953576&query=linux%20hausenblas)
+- Learning modern Linux: [https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=6953576&query=linux%20hausenblas](https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=6953576&query=linux%20hausenblas)
 - Linux Yourself: [https://www.routledge.com/Linux-Yourself-Concept-and-Programming/KSingh/p/book/9781032037073](https://www.routledge.com/Linux-Yourself-Concept-and-Programming/KSingh/p/book/9781032037073)
 
 Reference:
