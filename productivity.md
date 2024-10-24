@@ -21,9 +21,8 @@ Reference:
 
 ## Vim
 
-- [ ] [VIM Tutorial](md/vim_tutorial.md)
+- [x] [VIM Tutorial by Daniel Miessler](https://danielmiessler.com/p/vim/)
 - [ ] Neovim Kickstart: https://www.youtube.com/watch?v=stqUbv-5u2s
-- [ ] Vim Tutorial: https://web.archive.org/web/20210801233614/https://danielmiessler.com/study/vim/
 
 
 ## Exploring new commands and tools
