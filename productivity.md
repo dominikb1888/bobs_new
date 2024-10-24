@@ -9,8 +9,7 @@ Reference:
 
 ## Command Line
 
-- [ ] [CLI Tutorial](md/cli_tutorial.md)
-- [ ] Command Line: https://ubuntu.com/tutorials/command-line-for-beginners#1-overview
+- [x] CLI tutorial: [https://ubuntu.com/tutorials/command-line-for-beginners#1-overview](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
 
 ## Shell Customization and Dotfiles
 
