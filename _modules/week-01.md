@@ -2,7 +2,7 @@
 title: 1 | Computer Language, Business Language
 ---
 
-October 5
+October 10
 ![Intro](/bobs_new/assets/images/icons/1_computer-language-business-language.png)
 : **Lecture**{: .label .label-green }[The internal Language of Computers](/bobs_new/lectures#1-the-internal-language-of-computers)
   : [Hello World](https://classroom.github.com/a/cYd-7xPR)

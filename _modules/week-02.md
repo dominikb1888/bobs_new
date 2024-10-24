@@ -3,7 +3,7 @@ title: 2 | Combinatorial Logic
 ---
 
 
-October 12
+October 17
 ![Combinatorial Logic](/bobs_new/assets/images/icons/2_combinatorial-logic.png)
 : **Lecture**{: .label .label-green }[Combinatorial Logic](/bobs_new/lectures#2-combinatorial-logic)
   : [Bob](https://classroom.github.com/a/SrWip1V0), [Leap Year](https://classroom.github.com/a/QGy47nk5)
