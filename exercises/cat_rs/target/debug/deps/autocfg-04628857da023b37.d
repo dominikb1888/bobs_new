@@ -1,0 +1,10 @@
+/Users/dominikb1888/Library/CloudStorage/OneDrive-th-deg.de/Teaching/24W/bobs_new/exercises/cat_rs/target/debug/deps/libautocfg-04628857da023b37.rmeta: /Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/lib.rs /Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/error.rs /Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/rustc.rs /Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/version.rs
+
+/Users/dominikb1888/Library/CloudStorage/OneDrive-th-deg.de/Teaching/24W/bobs_new/exercises/cat_rs/target/debug/deps/libautocfg-04628857da023b37.rlib: /Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/lib.rs /Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/error.rs /Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/rustc.rs /Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/version.rs
+
+/Users/dominikb1888/Library/CloudStorage/OneDrive-th-deg.de/Teaching/24W/bobs_new/exercises/cat_rs/target/debug/deps/autocfg-04628857da023b37.d: /Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/lib.rs /Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/error.rs /Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/rustc.rs /Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/version.rs
+
+/Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/lib.rs:
+/Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/error.rs:
+/Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/rustc.rs:
+/Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.4.0/src/version.rs:

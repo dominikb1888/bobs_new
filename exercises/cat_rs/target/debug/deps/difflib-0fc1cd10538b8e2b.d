@@ -1,0 +1,10 @@
+/Users/dominikb1888/Library/CloudStorage/OneDrive-th-deg.de/Teaching/24W/bobs_new/exercises/cat_rs/target/debug/deps/libdifflib-0fc1cd10538b8e2b.rmeta: /Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/difflib-0.4.0/src/lib.rs /Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/difflib-0.4.0/src/differ.rs /Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/difflib-0.4.0/src/sequencematcher.rs /Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/difflib-0.4.0/src/utils.rs
+
+/Users/dominikb1888/Library/CloudStorage/OneDrive-th-deg.de/Teaching/24W/bobs_new/exercises/cat_rs/target/debug/deps/libdifflib-0fc1cd10538b8e2b.rlib: /Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/difflib-0.4.0/src/lib.rs /Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/difflib-0.4.0/src/differ.rs /Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/difflib-0.4.0/src/sequencematcher.rs /Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/difflib-0.4.0/src/utils.rs
+
+/Users/dominikb1888/Library/CloudStorage/OneDrive-th-deg.de/Teaching/24W/bobs_new/exercises/cat_rs/target/debug/deps/difflib-0fc1cd10538b8e2b.d: /Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/difflib-0.4.0/src/lib.rs /Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/difflib-0.4.0/src/differ.rs /Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/difflib-0.4.0/src/sequencematcher.rs /Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/difflib-0.4.0/src/utils.rs
+
+/Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/difflib-0.4.0/src/lib.rs:
+/Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/difflib-0.4.0/src/differ.rs:
+/Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/difflib-0.4.0/src/sequencematcher.rs:
+/Users/dominikb1888/.cargo/registry/src/index.crates.io-6f17d22bba15001f/difflib-0.4.0/src/utils.rs:

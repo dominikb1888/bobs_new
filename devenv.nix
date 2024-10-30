@@ -12,6 +12,13 @@
     pkgs.bundler
     pkgs.rustc
     pkgs.cargo
+  ] ++ lib.optionals pkgs.stdenv.isDarwin [
+    pkgs.libiconv
+    pkgs.darwin.apple_sdk.frameworks.SystemConfiguration
+    pkgs.darwin.CF
+    pkgs.darwin.Security
+    pkgs.darwin.configd
+    pkgs.darwin.dyld
   ];
 
   # https://devenv.sh/scripts/
