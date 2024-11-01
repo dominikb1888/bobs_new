@@ -42,32 +42,32 @@ MS Teams (hybrid classes, chat, announcements): <Link TBA>
 ### **Lecture**{: .label .label-green } Computer Science Concepts (30-45min)
 
 Required Reading:
-- The Secret Life of Programs: https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=6071143&query=the%20secret%20life
+- [The Secret Life of Programs](https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=6071143&query=the%20secret%20life)
 
 
 ### **Productivity**{: .label .label-blue } Linux Customization und Developer Productivity (30-45 min)
 
 Recommended Reading:
-- Learning modern Linux: https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=6953576&query=linux%20hausenblas
-- Linux Yourself: https://www.routledge.com/Linux-Yourself-Concept-and-Programming/KSingh/p/book/9781032037073
+- [Learning modern Linux](https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=6953576&query=linux%20hausenblas)
+- [Linux Yourself](https://www.routledge.com/Linux-Yourself-Concept-and-Programming/KSingh/p/book/9781032037073)
 
 
 ### **Exercise**{: .label .label-yellow } Rust Programming Practice (90-120 min)
 
 Required Reading:
-- Command-Line Rust: https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=6853886
+- [Command-Line Rust](https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=6853886)
 
 
 Recommended Reading:
-- Linux Pocket Guide: https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=31192041
-- Rust CLI Tutorial: https://rust-cli.github.io/book/index.html
+- [Linux Pocket Guide](https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=31192041)
+- [Rust CLI Tutorial](https://rust-cli.github.io/book/index.html)
 
 ### **Tutorial**{: .label .label-purple } Rust Exercises & Challenges (optional, additional)
 
 Join the Rust Language Track on Exercism to put your knowledge into practice. We will discuss exercises from Exercism briefly every week: exercism.io
 
-Read "100 Exercises to Learn Rust": https://rust-exercises.com/01_intro/00_welcome
-Do "Rust by Practice": https://practice.course.rs/
+Read [100 Exercises to Learn Rust](https://rust-exercises.com/01_intro/00_welcome)
+Do [Rust by Practice](https://practice.course.rs/)
 
 
 ## **Exam**{: .label .label-red } Build and Market your Command-Line Tool
