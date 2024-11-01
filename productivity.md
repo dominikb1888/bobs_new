@@ -1,11 +1,9 @@
 # Productivity
 
-Books:
+Recommended Readings (not required!):
 - The Linux Command-Line: [https://linuxcommand.org/tlcl.php](https://linuxcommand.org/tlcl.php)
 - Learning modern Linux: [https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=6953576&query=linux%20hausenblas](https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=6953576&query=linux%20hausenblas)
 - Linux Yourself: [https://www.routledge.com/Linux-Yourself-Concept-and-Programming/KSingh/p/book/9781032037073](https://www.routledge.com/Linux-Yourself-Concept-and-Programming/KSingh/p/book/9781032037073)
-
-Reference:
 - Linux Pocket Guide: [https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=31192041](https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=31192041)
 
 ## Command Line
@@ -14,9 +12,9 @@ Reference:
 
 ## Shell Customization and Dotfiles
 
-- [ ] Install ZSH: [ https://gist.github.com/derhuerst/12a1558a4b408b3b2b6e](https://gist.github.com/derhuerst/12a1558a4b408b3b2b6e)
-- [ ] Check with `bash echo $SHELL`
-- [ ] Customize with OH MY ZSH: [https://ohmyz.sh](https://ohmyz.sh)
+- [x] Install ZSH: [ https://gist.github.com/derhuerst/12a1558a4b408b3b2b6e](https://gist.github.com/derhuerst/12a1558a4b408b3b2b6e)
+- [x] Check with `bash echo $SHELL`
+- [x] Customize with OH MY ZSH: [https://ohmyz.sh](https://ohmyz.sh)
 - [ ] Configuration and Dotfiles:[https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789)
 
 ## Vim
