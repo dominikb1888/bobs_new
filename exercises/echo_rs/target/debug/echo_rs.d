@@ -1,1 +1,0 @@
-/Users/dominikb1888/Library/CloudStorage/OneDrive-th-deg.de/Teaching/24W/bobs_new/exercises/echo_rs/target/debug/echo_rs: /Users/dominikb1888/Library/CloudStorage/OneDrive-th-deg.de/Teaching/24W/bobs_new/exercises/echo_rs/src/main.rs
