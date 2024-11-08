@@ -1,4 +1,8 @@
-use std::fs;
+use anyhow::Result;
+use std::fs::File;
+use std::io;
+use std::io::BufRead;
+use std::io::BufReader;
 use clap::{Parser, Arg, ArgAction, Command};
 
 #[derive(Debug, Parser)]
@@ -47,16 +51,49 @@ fn get_args() -> Args {
 
 
 fn main() {
+    if let Err(e) = run() {
+        eprintln!("{e}");
+        std::process::exit(1);
+    }
+}
+
+fn run() -> Result<()> {
     let args = get_args();
-    // println!("{args:#?}");
 
     for filename in args.files {
-        let file: String = fs::read_to_string(filename).expect("File does not exist");
-        if args.number_lines {
+        match open(&filename) {
+            Err(e) => eprintln!("{filename}: {e}"),
+            Ok(file) => {
+                let mut prev_num = 0;
+                for (line_num, line_result) in file.lines().enumerate() {
+                    let line = line_result?;
 
+                    if args.number_lines {
+                        println!("{:6}\t{line}", line_num + 1);
+                    }
+                    else if args.number_nonblank_lines {
+                        if line.is_empty() {
+                            println!();
+                        } else {
+                            prev_num += 1;
+                            println!("{prev_num:6}\t{line}");
+                        }
+                    }
+                    else {
+                        println!("{line}");
+                    }
+                }
 
-        else {
-            println!("{}", file);
+            }
         }
+    }
+
+    Ok(())
+}
+
+fn open(filename: &str) -> Result<Box<dyn BufRead>> {
+    match filename {
+        "-" => Ok(Box::new(BufReader::new(io::stdin()))),
+        _ => Ok(Box::new(BufReader::new(File::open(filename)?))),
     }
 }
