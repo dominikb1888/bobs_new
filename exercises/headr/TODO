@@ -1,0 +1,6 @@
+1. Multiple Command-Line Arguments, which are numeric
+2. How to read lines vs. Bytes
+3. Separator for multiple files
+4. Comparing User input with actual file size
+
+-> 1. Challenge: Read in a file and print 10 lines for one file to STDOUT
