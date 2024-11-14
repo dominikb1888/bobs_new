@@ -15,7 +15,7 @@ Recommended Readings (not required!):
 - [x] Install ZSH: [ https://gist.github.com/derhuerst/12a1558a4b408b3b2b6e](https://gist.github.com/derhuerst/12a1558a4b408b3b2b6e)
 - [x] Check with `bash echo $SHELL`
 - [x] Customize with OH MY ZSH: [https://ohmyz.sh](https://ohmyz.sh)
-- [ ] Configuration and Dotfiles:[https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789)
+- [x] Configuration and Dotfiles:[https://www.daytona.io/dotfiles/ultimate-guide-to-dotfiles](https://www.daytona.io/dotfiles/ultimate-guide-to-dotfiles)
 
 ## Vim
 
@@ -36,7 +36,7 @@ Recommended Readings (not required!):
 
 ## Git and Github
 
-- [ ] Git and Github:[https://dev.to/colocodes/learn-how-to-use-git-and-github-in-a-team-like-a-pro-2dk7](https://dev.to/colocodes/learn-how-to-use-git-and-github-in-a-team-like-a-pro-2dk7)
+- [x] Git and Github:[https://dev.to/colocodes/learn-how-to-use-git-and-github-in-a-team-like-a-pro-2dk7](https://dev.to/colocodes/learn-how-to-use-git-and-github-in-a-team-like-a-pro-2dk7)
 - [ ] Using Git Branches: [https://www.nobledesktop.com/learn/git/git-branches]( https://www.nobledesktop.com/learn/git/git-branches)
 - [ ] Checkout: Reverting to Previous or Other Versions: [  https://www.gitkraken.com/learn/git/problems/git-checkout-commit](https://www.gitkraken.com/learn/git/problems/git-checkout-commit)
 - [ ] Create Pull Request (PR): [https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github and https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github and https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
