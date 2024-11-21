@@ -1,0 +1,47 @@
+# findr
+
+## Problem Statement
+
+I am a terminal user and I do not like to manually walk through each directory and note down a certain file following a certain naming pattern. Using cd and ls is tedious.
+
+## Solution Description
+
+I want a program that finds all files with a specific naming pattern for me. So, I do not have to use cd and ls for finding things in different folders anymore.
+
+
+## Needs/Requirements
+
+As a termin user, I want to
+
+- search any folder from anywhere, because switching directories is one more step and I might want to stay in my current context
+- get a list of files matching names or patterns, because sometimes I do not remember the file name exactly
+- get a count of the files found, because this helps me to do sanity checks on the patterns
+- use the output of find with other CLI tools
+
+Scoping - What do I have to do and what can I reuse? E.g. Counting (count) or numbered lists (cat -n) form other CLI tools.
+
+General Requirements:
+- Easy to use/User friendly
+- Fast
+- Fault tolerant
+- Safe
+
+## Features/Implementation
+
+- We need to take a path as an argument
+- We need to know which files and folders are inside this directory
+- Look through all files in current directory
+- Recursively look through all files in child directories
+- Compare the file name/pattern with all files found in the local and child directories
+- We need to send our data to STDOUT
+
+Arguments:
+- path
+- pattern
+
+## Prototyping
+1. Make search (aka traversal through directories) from current path without a pattern possible
+2. take a path as an argument, validate it and traverse
+3. take a pattern and a path as an argument validate each and traverse
+
+
