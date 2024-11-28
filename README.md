@@ -87,3 +87,4 @@ Do [Rust by Practice](https://practice.course.rs/)
 | Simon Willison | https://simonwillison.net/ | |
 | Susie Lu | https://susielu.com/data-viz | |
 | Chris Morgan | https://chrismorgan.info/blog/ | |
+| Amos | https://fasterthanli.me/ |
