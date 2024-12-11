@@ -1,0 +1,16 @@
+[package]
+name = "commr"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.94"
+clap = "4.5.23"
+
+[dev-dependencies]
+assert_cmd = "2.0.16"
+predicates = "3.1.2"
+pretty_assertions = "1.4.1"
+rand = "0.8.5"
