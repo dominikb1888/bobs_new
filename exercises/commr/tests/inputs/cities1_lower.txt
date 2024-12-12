@@ -1,6 +1,0 @@
-jackson
-denton
-cincinnati
-boston
-santa fe
-tucson

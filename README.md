@@ -76,6 +76,16 @@ Do [Rust by Practice](https://practice.course.rs/)
 - Build a Command-Line Tool that provides a solution by automating core issues of the problem in question
 - Build a website to market your tool to the world. How do you attact your users? How will you charge your customers?
 
+Requirements:
+1. Build a Github Repo hosting your tool
+2. Use the provided Github Action to cross-compile your application to a statically linked Linux binary (https://github.com/24W-GBAC/commr/blob/main/.github/workflows/main.yml)
+3. Build a Github Page to provide some insights on you product for you desired target group
+4. During the exam submit the main code files:
+    - Cargo.toml
+    - src/main.rs
+    - src/lib.rs (optional if used)
+    - binaries for aarch64 from you website
+    - binaries for additional platforms for bonus points :-)
 
 ## Examples of interesting Tech Bloggers and Open Source Devs:
 
