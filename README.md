@@ -78,7 +78,7 @@ Do [Rust by Practice](https://practice.course.rs/)
 
 Requirements:
 1. Build a Github Repo hosting your tool
-2. Use the provided Github Action to cross-compile your application to a statically linked Linux binary (https://github.com/24W-GBAC/commr/blob/main/.github/workflows/main.yml)
+2. Use the provided Github Action to cross-compile your application to a statically linked Linux binary [](https://github.com/24W-GBAC/commr/blob/main/.github/workflows/main.yml)
 3. Build a Github Page to provide some insights on you product for you desired target group
 4. During the exam submit a link to your Github Repo and upload main code files (both via exp.th-deg.de):
     - Cargo.toml
