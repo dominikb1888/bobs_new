@@ -60,7 +60,26 @@ fn run(args: Args) -> Result<()> {
 }
 
 fn parse_num(val: String) -> Result<TakeValue> {
-    unimplemented!()
+    let result = match val.as_str() {
+        "+0" => PlusZero,
+        _ => {
+            if val.starts_with("+") {
+                TakeNum(val.parse::<i64>()?)
+            } else {
+                let parsed = val.parse::<i64>();
+                if parsed.is_ok() {
+                    if parsed.clone()? < 0 {
+                        TakeNum(parsed?)
+                    } else {
+                        TakeNum(-parsed?)
+                    }
+                } else {
+                    bail!(val)
+                }
+            }
+        }
+    };
+    Ok(result)
 }
 
 fn count_lines_bytes(filename: &str) -> Result<(i64, i64)> {
