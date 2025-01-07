@@ -11,8 +11,9 @@ January 9
 : **Productivity**{: .label .label-blue } [Background Processes]()
   : [&, nohub, disown]
 
-: **Exercise**{: .label .label-yellow } [Fortunate Son](/bobs_new/exercises/#12-fortunate-son)
-  : [fortune_rs](https://github.com/dominikb1888/bobs_new/tree/main/exercises/fortune_rs)
+
+: **Exercise**{: .label .label-yellow } [Rascalry](/bobs_new/exercises/#13-rascalry)
+  : [cal_rs](https://github.com/dominikb1888/bobs_new/tree/main/exercises/cal_rs)
 
 
 

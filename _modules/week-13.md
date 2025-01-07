@@ -11,8 +11,9 @@ January 16
 : **Productivity**{: .label .label-blue } [CLI: Date and Time]()
   : [cron]
 
-: **Exercise**{: .label .label-yellow } [Rascalry](/bobs_new/exercises/#13-rascalry)
-  : [cal_rs](https://github.com/dominikb1888/bobs_new/tree/main/exercises/cal_rs)
+
+: **Exercise**{: .label .label-yellow } [Elles Island](/bobs_new/exercises/#3-elles-island)
+  : [ls_rs](https://github.com/dominikb1888/bobs_new/tree/main/exercises/ls_rs)
 
 
 
