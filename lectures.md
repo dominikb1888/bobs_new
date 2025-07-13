@@ -232,7 +232,7 @@ See figure 2.7, page 41.
 
 ## 4. Computer Anatomy
 
-- Memory
+- Memory: https://educatedguesswork.org/posts/memory-management-1/
 - I/O: CPU, ALU
 - CPU Instructions
 - GPU
