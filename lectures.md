@@ -186,7 +186,7 @@ $$
 [A nice visual explanation](https://yuminlee2.medium.com/leetcode-371-sum-of-two-integers-f36bdf4317c)
 
 {: .note }
-[Let's implement additon without a + operator in Rust](https://medium.com/@julien-ctx/how-to-add-numbers-without-plus-sign-d543b46c9aa4)
+[Let's implement addition without a + operator in Rust](https://medium.com/@julien-ctx/how-to-add-numbers-without-plus-sign-d543b46c9aa4)
 
 
 ### Byte: A group of Bits
@@ -222,12 +222,19 @@ See figure 2.7, page 41.
 
 ### A short primer on electricity
 
+### NAND Game
+
+[https://www.nandgame.com/](https://www.nandgame.com/)
+
+
 
 ## 3. Sequential Logic
 
 - Latches, FlipFlops, Counters, and Registers
 - Memory Organization and Adressing
 - Block Devices
+
+
 
 
 ## 4. Computer Anatomy

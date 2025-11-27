@@ -3,7 +3,7 @@ title: 7 | Organization Logic
 ---
 
 
-November 21
+December 20
 ![Organization Logic](/bobs_new/assets/images/icons/7_organization-logic.png)
 : **Lecture**{: .label .label-green }[Organization Logic](/bobs_new/lectures#7-organizing-data)
   : [Rust Exercises TBD]

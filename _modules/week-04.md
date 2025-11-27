@@ -3,7 +3,7 @@ title: 4 | Computer Anatomy
 ---
 
 
-October 31
+December 6
 ![Computer Anatomy](/bobs_new/assets/images/icons/4_computer-anatomy.png)
 : **Lecture**{: .label .label-green }[Computer Anatomy](/bobs_new/lectures#4-computer-anatomy)
   : [Rust Exercises TBD]

@@ -3,7 +3,7 @@ title: 8 | Language Processing
 ---
 
 
-November 28
+December 20
 ![Language Processing](/bobs_new/assets/images/icons/8_language-processing.png)
 : **Lecture**{: .label .label-green }[Language Processing](/bobs_new/lectures#8-language-processing)
   : [Rust Exercises TBD]

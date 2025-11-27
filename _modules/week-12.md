@@ -3,7 +3,7 @@ title: 12 | Deadlocks and Race Conditions
 ---
 
 
-January 9
+January 17
 ![Deadlocks and Race Conditions](/bobs_new/assets/images/icons/12_deadlocks-and-race-conditions.png)
 : **Lecture**{: .label .label-green }[Deadlocks and Race Conditions](/bobs_new/lectures#12-deadlocks-and-race-conditions)
   : [Rust Exercises TBD]

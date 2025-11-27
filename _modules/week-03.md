@@ -3,7 +3,7 @@ title: 3 | Sequential Logic
 ---
 
 
-October 24
+December 6
 ![Sequential Logic](/bobs_new/assets/images/icons/3_sequential-logic.png)
 : **Lecture**{: .label .label-green }[Sequential Logic](/bobs_new/lectures#3-sequential-logic)
   : [Rust Exercises TBD]

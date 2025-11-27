@@ -3,7 +3,7 @@ title: 14 | Machine Intelligence
 ---
 
 
-January 23
+January 24
 ![Machine Intelligence](/bobs_new/assets/images/icons/14_machine-intelligence.png)
 : **Lecture**{: .label .label-green }[Machine Intelligence](/bobs_new/lectures#14-machine-intelligence)
   : [Rust Exercises TBD]
