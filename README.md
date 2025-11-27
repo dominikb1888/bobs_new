@@ -41,6 +41,8 @@ MS Teams (hybrid classes, chat, announcements): <Link TBA>
 
 ### **Lecture**{: .label .label-green } Computer Science Concepts (30-45min)
 
+We will use materials inspired by the [Nand2Tetris Course](https://www.nand2tetris.org/)
+
 Required Reading:
 - [The Secret Life of Programs](https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=6071143&query=the%20secret%20life)
 
