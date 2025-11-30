@@ -45,6 +45,9 @@ We will use materials inspired by the [Nand2Tetris Course](https://www.nand2tetr
 
 Required Reading:
 - [The Secret Life of Programs](https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=6071143&query=the%20secret%20life)
+Tools:
+- https://nand2tetris.github.io/web-ide/chip/
+- https://nandgame.com/
 
 
 ### **Productivity**{: .label .label-blue } Linux Customization und Developer Productivity (30-45 min)
