@@ -13,7 +13,9 @@
     pkgs.rustc
     pkgs.cargo
     pkgs.cargo-watch
-    pkgs.python311Packages.jupyterlab
+    pkgs.clippy
+    pkgs.rustfmt
+    pkgs.python312Packages.jupyterlab
     pkgs.evcxr
   ] ++ lib.optionals pkgs.stdenv.isDarwin [
     pkgs.libiconv

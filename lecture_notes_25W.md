@@ -37,7 +37,32 @@ LUNCH
 
 ## Session 3/4 - December 6
 
+- Review of Rust code
+- Recap of Circuits and Binary Logic
+- One and two's complement, building a half adder/full adder
+
 ### Sequential Logic
 
-### Memory and Storage
+- Understanding Inverters and Oscillators
+- Understanding Latches and Flip Flops
+- Hardware implementation of Memory and Hard Disk
+
+### Computer Anatomy
+
+- I/O Bus
+- Memory
+- CPU
+- Instruction Sets
+- Compilation Process
+
+---
+LUNCH
+---
+
+### Memory Management
+
+- Stack and Heap
+- Pointers
+- Ownership and Borrowing
+
 
