@@ -4,39 +4,17 @@ use std::io::Read;
 use clap::Parser;
 use anyhow::Result;
 
+use cat_rs::Args;
 
-/// Rust version of `cat`
 
-
-#[derive(Debug, Parser)]
-#[command(author, version, about)]
-struct Args {
-    
-    // Input file(s)
-    #[arg(value_name = "FILE", default_value = "-")]
-    files: Vec<String>,
-    
-    // Number lines
-    #[arg(
-        short('n'),
-        long("number"),
-        conflicts_with("number_nonblank_lines")
-    )]
-    number_lines: bool,
-    
-    // Number non-blank lines
-    #[arg(short('b'), long("number-nonblank"))]
-    number_nonblank_lines: bool,
-}
-
-fn main() -> Result<()> {
+fn main() {
     if let Err(e) = run(Args::parse()) {
         eprintln!("{e}");
         std::process::exit(1);
     }
 }
 
-fn run(args: Args) -> Result<()> 
+fn run(args: Args) -> Result<()> { 
     // Loop through args.files Vector
     for filepath in args.files {
         // // check if file exists
