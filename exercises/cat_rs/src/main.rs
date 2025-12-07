@@ -1,6 +1,5 @@
 use std::fs::File;
-use std::io::Read;
-
+use std::io::{self, BufRead, BufReader};
 use clap::Parser;
 use anyhow::Result;
 
@@ -8,55 +7,56 @@ use cat_rs::Args;
 
 
 fn main() {
+    // starts the program
+    // Print errors to STDERR
+    // Exits the program
     if let Err(e) = run(Args::parse()) {
         eprintln!("{e}");
         std::process::exit(1);
     }
 }
 
-fn run(args: Args) -> Result<()> { 
-    // Loop through args.files Vector
-    for filepath in args.files {
-        // // check if file exists
-        
-        // // if so, open file
-        let mut file = File::open(filepath)?;
-        let mut contents = String::new();
-    
-        // // // read lines
-        // // // store in Vector<String>
-        file.read_to_string(&mut contents)?;
-        contents = contents.trim_end().to_string();
-
-        let lines: Vec<&str> = contents.split("\n").collect();
-
-        if args.number_lines || args.number_nonblank_lines {
-            let mut counter = 0;
-            for (no, line) in lines.into_iter().enumerate() {
-                let mut linenumber = no + 1;
-                
-                if args.number_lines && line == "" {
-                    counter += 1;
-                }
-
-                if args.number_lines {
-                    linenumber = linenumber - counter;
-                }
-
-                print!("{:>6}\t{}\n", 
-                       if line == "" && args.number_lines { "\n".to_string() } else { linenumber.to_string() }, 
-                       line
-                )            
-            }
-        } else {
-            println!("{contents}")
-        }
-
-        // // close file
-        // // add a file separator to our lines vector to separate files (e.g. ---------- FILENAME )
-        // // 
+fn open(filename: &str) -> Result<Box<dyn BufRead>> {
+    // gets data either from file or STDIN
+    match filename {
+        "-" => Ok(Box::new(BufReader::new(io::stdin()))),
+        _ => Ok(Box::new(BufReader::new(File::open(filename)?))),
     }
-    
-    Ok(())
-    // print lines vector to stdout
 }
+
+fn run(args: Args) -> Result<()> { 
+    // opens files
+    // handles errors around file access
+    for filename in &args.files {
+        match open(&filename) {
+            Err(err) => eprintln!("Failed to open {filename}: {err}"),
+            Ok(file) => {
+               let _ = print_lines(file, &args);    
+            },
+        }
+    }
+    Ok(())
+}
+
+fn print_lines(file: Box<dyn BufRead>, args: &Args) -> Result<()> {
+    // Iterates through each line and prints line based on arguments set
+    // No argument: no line numbers
+    // -b (number_nonblank_lines): Line numbers count does not include blank lines
+    // -n (number_lines): Line numbers count includes blank lines
+    let mut prev_num = 0;
+    for (line_num, line) in file.lines().enumerate() {
+        let line = line?;
+
+        if args.number_lines {
+            println!("{:>6}\t{line}", line_num + 1);
+        } else if args.number_nonblank_lines {
+            println!("{}", if line.is_empty() { "".into() } else { prev_num += 1;
+format!("{prev_num:>6}\t{line}") });
+        } else {
+            println!("{line}");
+        }
+    }
+
+    Ok(())
+}
+
