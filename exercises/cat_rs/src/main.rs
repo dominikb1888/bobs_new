@@ -30,9 +30,13 @@ struct Args {
 }
 
 fn main() -> Result<()> {
-    let args = Args::parse();
-    // println!("{:?}", args);
+    if let Err(e) = run(Args::parse()) {
+        eprintln!("{e}");
+        std::process::exit(1);
+    }
+}
 
+fn run(args: Args) -> Result<()> 
     // Loop through args.files Vector
     for filepath in args.files {
         // // check if file exists
