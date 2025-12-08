@@ -3,7 +3,7 @@ use std::io::{self, BufRead, BufReader};
 use clap::Parser;
 use anyhow::Result;
 
-use cat_rs::Args;
+use cat_rs::{Args, Config, Numbering, Case};
 
 
 fn main() {
@@ -43,17 +43,28 @@ fn print_lines(file: Box<dyn BufRead>, args: &Args) -> Result<()> {
     // No argument: no line numbers
     // -b (number_nonblank_lines): Line numbers count does not include blank lines
     // -n (number_lines): Line numbers count includes blank lines
-    let mut prev_num = 0;
+    let config = Config::from(args);
+    let mut line_counter = 0;
     for (line_num, line) in file.lines().enumerate() {
-        let line = line?;
+        let line_mod = match config.case {
+            Case::Uppercase => line?.to_uppercase(),
+            Case::Lowercase => line?.to_lowercase(),
+            Case::None => line?,
+        };
 
-        if args.number_lines {
-            println!("{:>6}\t{line}", line_num + 1);
-        } else if args.number_nonblank_lines {
-            println!("{}", if line.is_empty() { "".into() } else { prev_num += 1;
-format!("{prev_num:>6}\t{line}") });
+        let should_number = match config.numbering {
+            Numbering::NonBlank => !line_mod.is_empty(), // Only if not empty
+            Numbering::All => true,             // Always
+            Numbering::None => false,           // Never
+        };
+
+        // 2. THE ACTION: Written only once!
+        if should_number {
+            line_counter += 1;
+            // Standard cat uses 6 spaces padding
+            println!("{:6}\t{}", line_counter, line_mod);
         } else {
-            println!("{line}");
+            println!("{}", line_mod);
         }
     }
 
