@@ -50,7 +50,7 @@ pub struct Config {
     // git: GitMode
 }
 
-// 3. The Bridge (The Sanitization)
+// The Bridge (Sanitization Pattern)
 impl From<&Args> for Config {
     fn from(args: &Args) -> Self {
         let numbering = if args.number_nonblank {

@@ -43,6 +43,10 @@ fn print_lines(file: Box<dyn BufRead>, args: &Args) -> Result<()> {
     // No argument: no line numbers
     // -b (number_nonblank_lines): Line numbers count does not include blank lines
     // -n (number_lines): Line numbers count includes blank lines
+    // -U -L change text to upper or lowercase
+    // More features can be added in lib.rs via enums of logical groups
+    // There the Config struct translates between the individual flags and the config
+
     let config = Config::from(args);
     let mut line_counter = 0;
     for (line_num, line) in file.lines().enumerate() {
@@ -58,10 +62,8 @@ fn print_lines(file: Box<dyn BufRead>, args: &Args) -> Result<()> {
             Numbering::None => false,           // Never
         };
 
-        // 2. THE ACTION: Written only once!
         if should_number {
             line_counter += 1;
-            // Standard cat uses 6 spaces padding
             println!("{:6}\t{}", line_counter, line_mod);
         } else {
             println!("{}", line_mod);
