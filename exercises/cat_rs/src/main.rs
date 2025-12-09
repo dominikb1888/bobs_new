@@ -24,14 +24,14 @@ fn open(filename: &str) -> Result<Box<dyn BufRead>> {
     }
 }
 
-fn run(args: Args) -> Result<()> { 
+fn run(args: Args) -> Result<()> {
     // opens files
     // handles errors around file access
     for filename in &args.files {
         match open(&filename) {
             Err(err) => eprintln!("Failed to open {filename}: {err}"),
             Ok(file) => {
-               let _ = print_lines(file, &args);    
+               let _ = print_lines(file, &args);
             },
         }
     }
@@ -49,7 +49,7 @@ fn print_lines(file: Box<dyn BufRead>, args: &Args) -> Result<()> {
 
     let config = Config::from(args);
     let mut line_counter = 0;
-    for (line_num, line) in file.lines().enumerate() {
+    for line in file.lines() {
         let line_mod = match config.case {
             Case::Uppercase => line?.to_uppercase(),
             Case::Lowercase => line?.to_lowercase(),
