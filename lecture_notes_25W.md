@@ -66,3 +66,31 @@ LUNCH
 - Ownership and Borrowing
 
 
+## Session 5/6 - December 13
+
+### Recap
+
+- Rust Programming: Improving cat_rs
+
+### Computer Architecture
+
+- Von Neumann vs. Harvard
+- Operating Systems
+- Memory Hierarchy
+- Heap and Stack
+
+### Exercise
+
+- Reviewing our program, improving stack vs. heap usage
+
+---
+LUNCH
+---
+
+### Computer Networks
+
+- OSI Model
+- Simple HTTP Server from Scratch
+- Command-line tools for networking
+
+
