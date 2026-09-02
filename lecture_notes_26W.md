@@ -1,12 +1,25 @@
 # Lecture Notes
 
-## Session 1/2 - November 29
+## Session 1 - October 4
 
 ### Intro to Digital Business and Entrepreneurship
 - Understanding Digital Business from First Principles:
     - The Idea of Universal Computational Machines
     - Electronic Computers
-    - Future Computational Technologies (Quantum Computing & Bio Computing)
+    - Focus 26W: The AI Revolution and the Agentic OS
+
+### Linux and the Command-Line
+- Navigating
+- Pipes
+- STDIN/STDOUT/STDERR
+- Customizing your commandline (dotfiles, nix)
+
+### Our first Rust Program:
+- The compilation process: Encoding logic in compiled binary files encoding machine instructions
+- Compiled vs. interpreted languages
+
+
+## Session 2 - October 11
 
 ### The Bit and Boolean Logic
 - Bits and Representation
@@ -20,22 +33,8 @@
 - Representing Images
 - Hands-on: Rust Numbers, Strings, and Structs
 
----
-LUNCH
----
 
-### Linux and the Command-Line
-- Navigating
-- Pipes
-- STDIN/STDOUT/STDERR
-- Customizing your commandline (dotfiles, nix)
-
-### Our first Rust Program:
-- The compilation process: Encoding logic in compiled binary files encoding machine instructions
-- Compiled vs. interpreted languages
-
-
-## Session 3/4 - December 6
+## Session 3 - October 18
 
 - Review of Rust code
 - Recap of Circuits and Binary Logic
@@ -55,9 +54,7 @@ LUNCH
 - Instruction Sets
 - Compilation Process
 
----
-LUNCH
----
+## Session 4 - October 25
 
 ### Memory Management
 
@@ -66,7 +63,7 @@ LUNCH
 - Ownership and Borrowing
 
 
-## Session 5/6 - December 13
+## Session 5 - November 2
 
 ### Recap
 
@@ -83,9 +80,7 @@ LUNCH
 
 - Reviewing our program, improving stack vs. heap usage
 
----
-LUNCH
----
+## Session 6 - November 9
 
 ### Computer Networks
 
@@ -94,7 +89,7 @@ LUNCH
 - Command-line tools for networking
 
 
-## Session 7/8 - December 20
+## Session 7 - November 16
 
 -> We skip chapters 7 and 8 in our core book.
 
@@ -119,9 +114,7 @@ LUNCH
 - jQuery/HTMX
 
 
----
-LUNCH
----
+## Session 8 - November 23
 
 ### Define Product and Business Model
 
@@ -143,6 +136,19 @@ LUNCH
 
 
 
-## Session 9/10 - January 10
+## Session 9 - November 30
+
+## Session 10 - December 7
+
+## Session 11 - December 14
+
+## Session 12 - December 21
+
+-- > Feedback Presentation on Tools
+
+
+## Session 13 - January 13
+
+## Session 14 - January 20
 
 
