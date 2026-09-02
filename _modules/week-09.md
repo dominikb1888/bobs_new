@@ -3,7 +3,7 @@ title: 9 | The Web Browser
 ---
 
 
-January 10
+December 2
 ![The Web Browser](/bobs_new/assets/images/icons/9_the-web-browser.png)
 : **Lecture**{: .label .label-green }[The Web Browser](/bobs_new/lectures#9-the-web-browser)
   : [Rust Exercises TBD]

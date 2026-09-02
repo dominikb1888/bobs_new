@@ -3,7 +3,7 @@ title: 5 | Computer Architecture
 ---
 
 
-December 13
+November 4
 ![Computer Architecture](/bobs_new/assets/images/icons/5_computer-architecture.png)
 : **Lecture**{: .label .label-green }[Computer Architecture](/bobs_new/lectures#5-computer-architecture)
   : [Rust Exercises TBD]

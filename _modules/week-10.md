@@ -3,7 +3,7 @@ title: 10 | Applications and Systems Programming
 ---
 
 
-January 10
+December 9
 ![Applications and Systems Programming](/bobs_new/assets/images/icons/10_applications-and-systems-programming.png)
 : **Lecture**{: .label .label-green }[Application and Systems Programming](/bobs_new/lectures#10-application-and-systems-programming)
   : [Rust Exercises TBD]

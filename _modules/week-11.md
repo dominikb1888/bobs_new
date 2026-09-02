@@ -3,7 +3,7 @@ title: 11 | Shortcuts and Approximations
 ---
 
 
-January 17
+December 16
 ![Shortcuts and Approximations](/bobs_new/assets/images/icons/11_shortcuts-and-approximations.png)
 : **Lecture**{: .label .label-green }[Shortcuts and Approximations](/bobs_new/lectures#11-shortcuts-and-approximations)
   : [Rust Exercises TBD]

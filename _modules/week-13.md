@@ -3,7 +3,7 @@ title: 13 | Security
 ---
 
 
-January 24
+January 13
 ![Security](/bobs_new/assets/images/icons/13_security.png)
 : **Lecture**{: .label .label-green }[Security](/bobs_new/lectures#13-security)
   : [Rust Exercises TBD]

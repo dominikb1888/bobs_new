@@ -3,7 +3,7 @@ title: 6 | Communications Breakdown
 ---
 
 
-December 13
+November 11
 ![Communications Breakdown](/bobs_new/assets/images/icons/6_communications-breakdown.png)
 : **Lecture**{: .label .label-green }[Communications Breakdown](/bobs_new/lectures#6-communications-breakdown)
   : [Rust Exercises TBD]
