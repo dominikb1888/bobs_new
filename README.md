@@ -77,9 +77,15 @@ Do [Rust by Practice](https://practice.course.rs/)
 
 ## **Exam**{: .label .label-red } Build and Market your Command-Line Tool
 
-- Discover and Explore a personal problem that can be solved or mitigated by automation
-- Build a Command-Line Tool that provides a solution by automating core issues of the problem in question
-- Build a website to market your tool to the world. How do you attact your users? How will you charge your customers?
+- Tackle one of the challenges described below.
+- Discover and Explore a personal problem that can be solved or mitigated by automation.
+- Build a Command-Line Tool that provides a solution by automating core issues of the problem in question.
+- Build a website and a social media activities to market your tool to the world. How do you attract your users? How will you charge your customers?
+
+Choose from these Challenges:
+- The Agentic OS: Improve the interaction of your operating system with agents. Make outputs more specific, efficient or customized to help your clanker!
+- Advanced Networking: Make your life easier dealing with low-level networking problems. After all its just a bit of binary wrapped in more binary!
+- Text Editing: Invent new ways to edit text. Create editors for specific scenarios or allow for weird interactions!
 
 Requirements:
 1. Build a Github Repo hosting your tool
