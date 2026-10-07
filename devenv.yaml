@@ -1,7 +1,9 @@
 # yaml-language-server: $schema=https://devenv.sh/devenv.schema.json
 inputs:
-  nixpkgs:
-    url: github:cachix/devenv-nixpkgs/rolling
+  git-hooks:
+    url: github:cachix/git-hooks.nix
+  pre-commit-hooks:
+    follows: git-hooks
 
 # If you're using non-OSS software, you can set allowUnfree to true.
 # allowUnfree: true
