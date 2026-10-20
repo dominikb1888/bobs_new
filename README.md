@@ -47,9 +47,9 @@ Required Reading:
 - [The Secret Life of Programs](https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=6071143&query=the%20secret%20life)
 
 Tools:
-- https://nand2tetris.github.io/web-ide/chip/
-- https://nandgame.com/
-
+- [Nand2Tetris Chip](https://nand2tetris.github.io/web-ide/chip/)
+- [Nandgame](https://nandgame.com/)
+- [Compiler Explorer](https://godbolt.org/)
 
 ### **Productivity**{: .label .label-blue } Linux Customization und Developer Productivity (30-45 min)
 
@@ -63,10 +63,10 @@ Recommended Reading:
 Required Reading:
 - [Command-Line Rust](https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=6853886)
 
-
 Recommended Reading:
 - [Linux Pocket Guide](https://ebookcentral.proquest.com/lib/th-deggendorf/detail.action?docID=31192041)
 - [Rust CLI Tutorial](https://rust-cli.github.io/book/index.html)
+
 
 ### **Tutorial**{: .label .label-purple } Rust Exercises & Challenges (optional, additional)
 
