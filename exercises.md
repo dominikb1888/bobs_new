@@ -15,7 +15,6 @@
 
 Objectives:
 - Getting Started with "Hello World"
-- **Exercise**{: .label .label-red} [Hello World](https://classroom.github.com/a/cYd-7xPR)
 - Code Organization in Rust
 - Creating and Running a Project with Cargo
 - Writing and Running Integration Tests

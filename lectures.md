@@ -73,10 +73,6 @@ The operation *a AND b* is equivalent to the operation *NOT(NOT a OR NOT b)*
 {: .note }
 [Generate your own Truthtables](https://mrieppel.net/prog/truthtable.html)
 
-{: .highlight }
-> - [Bob](https://classroom.github.com/a/SrWip1V0)
-> - [Leap Year](https://classroom.github.com/a/QGy47nk5)
-
 
 ### Representing Numbers
 
