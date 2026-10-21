@@ -1,6 +1,6 @@
 # Lecture Notes
 
-## Session 1 - October 4
+## Session 1 - October 7
 
 ### Intro to Digital Business and Entrepreneurship
 - Understanding Digital Business from First Principles:
@@ -19,7 +19,7 @@
 - Compiled vs. interpreted languages
 
 
-## Session 2 - October 11
+## Session 2 - October 14
 
 ### The Bit and Boolean Logic
 - Bits and Representation
@@ -34,17 +34,19 @@
 - Hands-on: Rust Numbers, Strings, and Structs
 
 
-## Session 3 - October 18
+## Session 3 - October 21
 
-- Review of Rust code
+- Review of Rust code (Compilation, Binary, and Types)
 - Recap of Circuits and Binary Logic
 - One and two's complement, building a half adder/full adder
+
 
 ### Sequential Logic
 
 - Understanding Inverters and Oscillators
 - Understanding Latches and Flip Flops
 - Hardware implementation of Memory and Hard Disk
+
 
 ### Computer Anatomy
 
@@ -54,7 +56,8 @@
 - Instruction Sets
 - Compilation Process
 
-## Session 4 - October 25
+
+## Session 4 - October 28
 
 ### Memory Management
 
@@ -63,7 +66,7 @@
 - Ownership and Borrowing
 
 
-## Session 5 - November 2
+## Session 5 - November 4
 
 ### Recap
 
@@ -80,7 +83,7 @@
 
 - Reviewing our program, improving stack vs. heap usage
 
-## Session 6 - November 9
+## Session 6 - November 11
 
 ### Computer Networks
 
@@ -89,7 +92,7 @@
 - Command-line tools for networking
 
 
-## Session 7 - November 16
+## Session 7 - November 18
 
 -> We skip chapters 7 and 8 in our core book.
 
@@ -114,7 +117,7 @@
 - jQuery/HTMX
 
 
-## Session 8 - November 23
+## Session 8 - November 25
 
 ### Define Product and Business Model
 
@@ -136,13 +139,13 @@
 
 
 
-## Session 9 - November 30
+## Session 9 - December 2
 
-## Session 10 - December 7
+## Session 10 - December 9
 
-## Session 11 - December 14
+## Session 11 - December 16
 
-## Session 12 - December 21
+## Session 12 - December 23
 
 -- > Feedback Presentation on Tools
 
