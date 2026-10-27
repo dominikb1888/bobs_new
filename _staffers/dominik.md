@@ -5,7 +5,5 @@ email: dominik.boehler@th-deg.de
 website: https://dominikboehler.de
 photo: dominik.webp
 meta:
-  Office Hours: On request
+  Office Hours: Friday, 16:00-17:00 @ GREG
 ---
-
-[Schedule an appointment](calendly.com/dominikb1888){: .btn .btn-outline }

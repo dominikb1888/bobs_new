@@ -8,3 +8,6 @@ anyhow = "1.0.104"
 assert_cmd = "2.2.2"
 predicates = "3.1.4"
 pretty_assertions = "1.4.1"
+
+[dependencies]
+gumdrop = "0.8.1"

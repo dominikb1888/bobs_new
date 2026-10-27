@@ -51,3 +51,15 @@ fn hello1_no_newline() -> Result<()> {
 fn hello2_no_newline() -> Result<()> {
     run(&["-n", "Hello", "there"], "tests/expected/hello2.n.txt")
 }
+
+// --------------------------------------------------
+#[test]
+fn hello1_no_delimiter() -> Result<()> {
+    run(&["Hello  there", "-d"], "tests/expected/hello1.d.txt")
+}
+
+// --------------------------------------------------
+#[test]
+fn hello2_no_delimiter() -> Result<()> {
+    run(&["-d", "Hello", "there"], "tests/expected/hello2.d.txt")
+}
