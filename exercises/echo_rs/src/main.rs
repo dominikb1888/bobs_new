@@ -1,43 +1,35 @@
-use gumdrop::Options;
-
-
-#[derive(Debug, Options)]
-struct Opts {
-
-    #[options(short = "n", long = "no-newline", help = "Do not print a newline")]
-    no_newline: bool,
-
-    #[options(short = "d", long = "no-space", help = "Do not put a space between free args")]
-    no_space: bool,
-
-    #[options(free, required, help = "TEXT")]
-    positional_args: Vec<String>,
-
-}
-
-
 fn main() {
-    let opts = Opts::parse_args_default_or_exit();
-    let mut delimiter = " ";
+    let mut output: Vec<String> = Vec::new();
+    let mut no_newline = false; // removes newline from the end of the output
+    let mut delimiter = " "; // sets the delimiter to be space or none
 
-    if opts.no_space {
-        delimiter = "";
+    let args = std::env::args().skip(1);
+
+    // separating arguments (aka context) from content
+    // echo hello -n world this is -d great
+    for arg in args { // String
+        match arg.as_str() { // String
+            "-n" => no_newline = true,
+            "-d" => delimiter = "",
+            _    => output.push(arg),
+        };
+    }
+    // no_newline: true
+    // delimiter: ""
+    // output: ["hello", "world", "this", "is", "great"]
+
+    if output.is_empty() {
+        eprint!("{}", "missing required free argument");
+        std::process::exit(1)
     }
 
-    let text: String = opts.positional_args.join(delimiter);
+    let mut stringed_list = output.join(delimiter);
 
-    if opts.no_newline {
-        print!("{}", text)
-    } else {
-        println!("{}", text)
+    if no_newline == true {
+        print!("{}", stringed_list);
+    }
+    else {
+        println!("{}", stringed_list);
     }
 }
 
-// TODO:
-// - [x] Access inner property of Args
-// - [x] Skip the first item in inner, the executable path
-// - [x] Print the residual items separated by space
-//  -> TODO: Remove appended space!
-// - [?] Think implementing the flags (newline, no space...)
-//    - "-n" flag avoids newline after our output
-// Args.inner

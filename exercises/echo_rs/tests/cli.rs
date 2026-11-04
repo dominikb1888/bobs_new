@@ -10,7 +10,7 @@ fn dies_no_args() -> Result<()> {
     Command::cargo_bin("echo_rs")?
         .assert()
         .failure()
-         .stderr(predicate::str::contains("missing required free argument"));
+        .stderr(predicate::str::contains("missing required free argument"));
     Ok(())
 }
 

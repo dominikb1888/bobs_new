@@ -41,12 +41,15 @@
 - One and two's complement, building a half adder/full adder
 
 
+## Session 4 - October 28
+
 ### Sequential Logic
 
 - Understanding Inverters and Oscillators
 - Understanding Latches and Flip Flops
 - Hardware implementation of Memory and Hard Disk
 
+## Session 5 - November 4
 
 ### Computer Anatomy
 
@@ -57,8 +60,6 @@
 - Compilation Process
 
 
-## Session 4 - October 28
-
 ### Memory Management
 
 - Stack and Heap
@@ -66,11 +67,12 @@
 - Ownership and Borrowing
 
 
-## Session 5 - November 4
-
 ### Recap
 
 - Rust Programming: Improving cat_rs
+
+
+## Session 6 - November 11
 
 ### Computer Architecture
 
@@ -83,7 +85,8 @@
 
 - Reviewing our program, improving stack vs. heap usage
 
-## Session 6 - November 11
+
+## Session 7 - November 18
 
 ### Computer Networks
 
@@ -92,7 +95,6 @@
 - Command-line tools for networking
 
 
-## Session 7 - November 18
 
 -> We skip chapters 7 and 8 in our core book.
 
@@ -108,6 +110,8 @@
     4. Session/Presentation/Application: HTTP, FTP,...
 
 
+## Session 8 - November 25
+
 ### Web Technologies
 
 - Markup Languages
@@ -117,7 +121,7 @@
 - jQuery/HTMX
 
 
-## Session 8 - November 25
+## Session 9 - December 2
 
 ### Define Product and Business Model
 
@@ -139,7 +143,6 @@
 
 
 
-## Session 9 - December 2
 
 ## Session 10 - December 9
 
