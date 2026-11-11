@@ -1,49 +1,69 @@
-use gumdrop::Options;
 use std::fs::File;
-use std::io::prelude::*;
+use std::io::{self, BufRead, BufReader};
 
-#[derive(Debug, Options)]
-struct Args {
+use gumdrop::Options;
+use anyhow::Result;
 
-    #[options(short = "n")]
-    numbered: bool, // define a boolean argument, set default
+use cat_rs::{Args, Config, Numbering};
 
-    #[options(short = "b")]
-    blank: bool,
-
-    #[options(free, help="missing required free argument")]
-    filenames: Vec<String>,
-
+fn main() {
+    // starts the program
+    // Print errors to STDERR
+    // Exits the program
+    if let Err(e) = run(Args::parse_args_default()) {
+        eprintln!("{e}");
+        std::process::exit(1);
+    }
 }
 
-fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let args = Args::parse_args_default_or_exit();
-    for filename in args.filenames {
-        let mut file = File::open(&filename)?;
-        let mut text = String::new();
-        file.read_to_string(&mut text)?;
+fn open(filename: &str) -> Result<Box<dyn BufRead>> {
+    // gets data either from file or STDIN
+    match filename {
+        "-" => Ok(Box::new(BufReader::new(io::stdin()))),
+        _ => Ok(Box::new(BufReader::new(File::open(filename)?))),
+    }
+}
 
-        match File::open(&filename) {
+fn run(args: Args) -> Result<()> {
+    // opens files
+    // handles errors around file access
+    for filename in &args.filenames {
+        match open(&filename) {
             Err(err) => eprintln!("Failed to open {filename}: {err}"),
             Ok(file) => {
-                let mut blank_lines = 0;
-                for (no, line) in text.lines().enumerate() {
-                    if args.numbered {
-                       println!("{:>6}\t{line}", no + 1);
-                    } else if args.blank {
-                        if line.is_empty() {
-                            println!();
-                         } else {
-                            blank_lines += 1;
-                            println!("{:>6}\t{}", blank_lines, line)
-                         }
-                    } else {
-                        println!("{}", line);
-                    }
-                }
-            }
+               let _ = print_lines(file, &args);
+            },
         }
     }
+    Ok(())
+}
+
+fn print_lines(file: Box<dyn BufRead>, args: &Args) -> Result<()> {
+    // Iterates through each line and prints line based on arguments set
+    // No argument: no line numbers
+    // -b (number_nonblank_lines): Line numbers count does not include blank lines
+    // -n (number_lines): Line numbers count includes blank lines
+    // -U -L change text to upper or lowercase
+    // More features can be added in lib.rs via enums of logical groups
+    // There the Config struct translates between the individual flags and the config
+
+    let config = Config::from(args);
+    let mut line_counter = 0;
+    for line in file.lines() {
+        let should_number = match config.numbering {
+            Numbering::NonBlank => !line?.is_empty(), // Only if not empty
+            Numbering::All => true,             // Always
+            Numbering::None => false,           // Never
+        };
+
+        if should_number {
+            line_counter += 1;
+            println!("{:6}\t{}", line_counter, line);
+        } else {
+            println!("{}", line);
+        }
+    }
+
     Ok(())
 }
 
