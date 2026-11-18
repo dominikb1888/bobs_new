@@ -38,6 +38,7 @@
 
   # https://devenv.sh/languages/
   languages.rust.enable = true;
+  languages.python.enable = true;
 
   # https://devenv.sh/pre-commit-hooks/
   # pre-commit.hooks.shellcheck.enable = true;
